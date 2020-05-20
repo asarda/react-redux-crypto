@@ -7,6 +7,7 @@ const rootReducer = combineReducers({
     cryptos: cryptosReducer
 })
 
+//To use Redux devTools chrome extension
 const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
 
 export default function generateStore() {
